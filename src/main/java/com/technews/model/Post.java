@@ -13,6 +13,7 @@ import java.util.Objects;
 @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 @Table(name = "post")
 public class Post implements Serializable {
+//The keyword implements is similar in Typescript because you IMPLEMENT an interface but EXTEND a parent class.
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
